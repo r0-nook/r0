@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "c5422a84c74ac643",
+    "type": "split",
+    "children": [
+      {
+        "id": "e3212b1660d030a3",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "211ef2db3bb0cb9d",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe4a36cecdfc0260",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5081f80d67c6bba1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f2bc65bc78a5f543",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 264
+  },
+  "right": {
+    "id": "00389069baa3023c",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa3de0c1b15f56ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2b8736a4bc957e9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Флакон грибнику/2 Крассный.md",
+    "Флакон грибнику/Грибник 7 Клара 1.md",
+    "Флакон грибнику/структура 1.0.md",
+    "Флакон грибнику/Грибник -0.9.md",
+    "Флакон грибнику/Грибник -1 Клара 0.md",
+    "Флакон грибнику/Грибник 2 Прядь 1.md",
+    "Флакон грибнику/Грибник 3 2 выпуск Ночь Сказок у младших.md",
+    "Флакон грибнику/Грибник 4 3 после выпуска  под холмами.md",
+    "23.1.21/последний круг/хроно последний круг.md",
+    "23.1.21/последний круг/2000/стая перчатка.md"
+  ]
+}

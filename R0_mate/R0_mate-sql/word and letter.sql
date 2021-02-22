@@ -1,0 +1,20 @@
+сколько букв IKS в слове?
+SELECT SUM (CASE
+		WHEN SUBSTR ('', LEVEL, 1) = 'IKS' THEN 1
+		ELSE 0
+	END ) COUNT_LETTERS
+	FROM DUAL
+	CONNECT BY LEVEL <= LENGTH ('')
+
+сколько букв IKS в слове?
+SELECT SUM (CASE
+		WHEN SUBSTR (:search_text, LEVEL, 1) = :letter THEN 1
+		ELSE 0
+	END ) COUNT_LETTERS
+	FROM DUAL
+	CONNECT BY LEVEL <= LENGTH (:search_text)
+
+SELECT LENGTH('') - LENGTH (REPLACE('WORD','LETTER')) COUNT_LETTERS
+	FROM DUAL
+
+SELECT * FROM таблица WHERE колонка LIKE = '%буква' -- '_буква'

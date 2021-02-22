@@ -1,0 +1,1 @@
+She was dressed in the latest fashion, with a shorter dress and a long jacket that hugged her body, corset-like bindings closing it at the front
