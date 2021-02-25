@@ -5,8 +5,8 @@ WHERE city = 'Tokyo'
 
 
 SELECT c.customer_id, COUNT(*) as orders
-FROM customers c JOIN
-     orders o
+FROM customers c 
+JOIN orders o
      ON c.customer_id = o.customer_id
 WHERE c.city = 'London'
 GROUP BY c.customer_id;
@@ -24,6 +24,23 @@ select max(customer_id)
 from customers
 
 
-SELECT * FROM products 
+SELECT * FROM products
 left JOIN suppliers ON products.supplier_id = suppliers.supplier_id
 WHERE city = 'Tokyo'
+
+
+______________________________________
+
+
+select max(customer_id) from customers
+
+SELECT order_date, product_id, quantity, orders.order_id
+FROM orders
+left join orderDetails on orders.order_id = orderDetails.order_id
+where customer_id = 14
+
+SELECT * FROM products
+left JOIN suppliers ON products.supplier_id = suppliers.supplier_id
+WHERE city = 'Tokyo'
+
+_______________________________________________
