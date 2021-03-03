@@ -146,15 +146,12 @@ ________________________________________
 UPDATE book SET buy = amount WHERE buy > amount;
 UPDATE book SET price = 0.9 * price WHERE buy = 0;
 
-
 SELECT * FROM book
 
+____________________________________________________
 
-
-
-
-
-
-
-
+CREATE TABLE ordering AS
+SELECT author, title, ( SELECT ROUND(AVG(amount)) FROM book ) AS amount FROM book
+WHERE amount < ( SELECT AVG(amount) FROM book );
+SELECT * FROM ordering;
 
