@@ -1,30 +1,33 @@
 {
   "main": {
-    "id": "c5422a84c74ac643",
+    "id": "b11e06c83f49fb83",
     "type": "split",
     "children": [
       {
-        "id": "e3212b1660d030a3",
+        "id": "779d8bf62835059e",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "R0_tail/now.md",
+            "mode": "source"
+          }
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "211ef2db3bb0cb9d",
+    "id": "a838410fc01330c7",
     "type": "split",
     "children": [
       {
-        "id": "fe4a36cecdfc0260",
+        "id": "05e5ff3e9772cd0e",
         "type": "tabs",
         "children": [
           {
-            "id": "5081f80d67c6bba1",
+            "id": "30a2e64793d2d610",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -32,7 +35,7 @@
             }
           },
           {
-            "id": "f2bc65bc78a5f543",
+            "id": "8700167d23fd61ec",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,22 +53,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264
+    "width": 163
   },
   "right": {
-    "id": "00389069baa3023c",
+    "id": "ad3f673759020138",
     "type": "split",
     "children": [
       {
-        "id": "aa3de0c1b15f56ee",
+        "id": "743f5d47c9563417",
         "type": "tabs",
         "children": [
           {
-            "id": "d2b8736a4bc957e9",
+            "id": "0e4ae640c23db822",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "R0_tail/now.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "0.4. молд/0.4. молд часть 2 .md",
-    "0.4. молд/0 мона 0.4. молд часть 2 .md",
-    "0.4. молд/4 ейсид рум 0.4. молд часть 2.md",
-    "0.4. молд/5 meeting 0.4. mold часть 2.md",
-    "0.4. молд/3 крот 0.4. молд часть 2.md",
-    "структура 1.0.md",
-    "0.4. молд/6 0.4. молд часть 2.md",
-    "0.4. молд/2 школа 0.4. молд часть 2.md",
-    "2010/0.4. молд/Untitled.md",
-    "2010/0.4. молд/6 0.4. молд часть 2.md"
+    "R0_tail/now.md",
+    "R0_tail/fikbook r0.md",
+    "R0_tail/0.1. Mold 1.6..md",
+    "R0_tail/Untitled.md",
+    "R0_tail/0.10. Mold 1.1..md",
+    "R0_tail/0.9. Mold 1.1..md",
+    "R0_tail/0.8. Mold 1.1..md",
+    "R0_tail/0.6. Mold 1.6..md",
+    "R0_tail/0.5. Mold 1.6..md",
+    "R0_tail/0.4. Mold 1.6..md"
   ]
 }
