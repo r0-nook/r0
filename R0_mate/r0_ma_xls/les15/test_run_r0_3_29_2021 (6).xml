@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<run>
+	<id>R7</id>
+	<name>Test Run r0 3/29/2021</name>
+	<description></description>
+	<config></config>
+	<createdon>2021-03-29T14:15:53Z</createdon>
+		<completed>false</completed>
+		<milestone></milestone>
+	<stats>
+										<passed>
+			<percent>56</percent>
+			<count>18</count>
+		</passed>
+											<blocked>
+			<percent>0</percent>
+			<count>0</count>
+		</blocked>
+											<untested>
+			<percent>0</percent>
+			<count>0</count>
+		</untested>
+											<retest>
+			<percent>0</percent>
+			<count>0</count>
+		</retest>
+											<failed>
+			<percent>44</percent>
+			<count>14</count>
+		</failed>
+																																																				</stats>	<sections>
+		<section>
+		<name>User Logged in</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>header</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>home</name>
+		<description></description>
+									</section>
+		<section>
+		<name>new post</name>
+		<description></description>
+									</section>
+		<section>
+		<name>setting</name>
+		<description></description>
+									</section>
+		<section>
+		<name>username</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>main</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>home</name>
+		<description></description>
+									</section>
+		<section>
+		<name>home</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Your feed</name>
+		<description></description>
+									</section>
+		<section>
+		<name>GlobalFeed</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>not your article</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>like btn</name>
+		<description>1. add like</description>
+									</section>
+		<section>
+		<name>avatar&amp;user</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>btn [Follow username]</name>
+		<description></description>
+									</section>
+		<section>
+		<name>My Articles</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>article</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>Favorited Articles</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>article</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>preview-link</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>avatar&amp;username</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>comment form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>comment fild</name>
+		<description></description>
+									</section>
+		<section>
+		<name>comment btn</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>your article</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>avatar&amp;user</name>
+		<description></description>
+									</section>
+		<section>
+		<name>edit article</name>
+		<description></description>
+									</section>
+		<section>
+		<name>delete article</name>
+		<description></description>
+									</section>
+		<section>
+		<name>comment form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>comment fild</name>
+		<description></description>
+									</section>
+		<section>
+		<name>comment btn</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>Popular tags</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>new post</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>title</name>
+		<description></description>
+									</section>
+		<section>
+		<name>about</name>
+		<description></description>
+									</section>
+		<section>
+		<name>article</name>
+		<description></description>
+									</section>
+		<section>
+		<name>tag</name>
+		<description></description>
+									</section>
+		<section>
+		<name>btn [Publish Article]</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>Setting</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>avatar url</name>
+		<description></description>
+									</section>
+		<section>
+		<name>username</name>
+		<description></description>
+									</section>
+		<section>
+		<name>bio</name>
+		<description></description>
+									</section>
+		<section>
+		<name>email</name>
+		<description></description>
+									</section>
+		<section>
+		<name>pass</name>
+		<description></description>
+									</section>
+		<section>
+		<name>btn [Update Setting]</name>
+		<description></description>
+									</section>
+		<section>
+		<name>btn [Logout]</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>your user page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>your article</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>edit profile setting</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>footer</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>1. User can go to the github.</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>header</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>home</name>
+		<description></description>
+									</section>
+		<section>
+		<name>new post</name>
+		<description></description>
+									</section>
+		<section>
+		<name>setting</name>
+		<description></description>
+									</section>
+		<section>
+		<name>username</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>User Logged out</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>header</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>logo</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Home</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Sign in</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Sign up</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>main</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>home</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>GlobalFeed</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>article</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>like btn</name>
+		<description></description>
+									</section>
+		<section>
+		<name>avatar&amp;user</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>btn [Follow user]</name>
+		<description></description>
+									</section>
+		<section>
+		<name>my articles</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>avatar&amp;user</name>
+		<description></description>
+									</section>
+		<section>
+		<name>like btn</name>
+		<description></description>
+									</section>
+		<section>
+		<name>preview-link</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>avatar&amp;user</name>
+		<description></description>
+									</section>
+		<section>
+		<name>btn [Sign in]</name>
+		<description></description>
+									</section>
+		<section>
+		<name>btn [Sign up]</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>favorite articles</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>preview-link</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>avatar&amp;user</name>
+		<description></description>
+									</section>
+		<section>
+		<name>btn [Sign in]</name>
+		<description></description>
+									</section>
+		<section>
+		<name>btn [Sign up]</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>Popular tags</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>Sign in form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Need an account?</name>
+		<description></description>
+						<tests>
+																																										<test>
+				<id>T151</id>
+				<title>1.  Must redirected on the &quot;Sign up&quot; form</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C198</caseid>
+								<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:31:03Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>email</name>
+		<description></description>
+						<tests>
+																																										<test>
+				<id>T152</id>
+				<title>&quot;1. Must contain @</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C199</caseid>
+								<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:31:58Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T182</id>
+				<title>3. Must be exist</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-7</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C262</caseid>
+								<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:32:52Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T183</id>
+				<title>5. Must be field, required to fill</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C263</caseid>
+								<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:34:31Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>pass</name>
+		<description></description>
+						<tests>
+																																										<test>
+				<id>T154</id>
+				<title>1. Must be no empty</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C201</caseid>
+								<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:34:40Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>btn [Sign in]</name>
+		<description></description>
+						<tests>
+																																										<test>
+				<id>T155</id>
+				<title>1. Must go login</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C202</caseid>
+								<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:34:46Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>Sign up</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Have an account?</name>
+		<description></description>
+						<tests>
+																																										<test>
+				<id>T156</id>
+				<title>Must redirect on the &quot;Sign up&quot; form</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C203</caseid>
+								<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:34:53Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>username</name>
+		<description></description>
+						<tests>
+																																										<test>
+				<id>T157</id>
+				<title>1. Must register username which the only Latin characters without special symbols.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C204</caseid>
+								<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:35:07Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T158</id>
+				<title>2. Must register username wich symbols length 36 or less</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-13</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C205</caseid>
+								<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:35:29Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T159</id>
+				<title>3. Must not register a username that consist of empty spaces</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-14</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C206</caseid>
+								<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:36:14Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T160</id>
+				<title>4. Must Register a new username with no case-sensitive letter.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C207</caseid>
+								<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:36:37Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T161</id>
+				<title>2.1. Must register username wich symbols length more than 4</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C251</caseid>
+								<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:36:52Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T162</id>
+				<title>5. Must be field, required to fill</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C252</caseid>
+								<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:36:56Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T185</id>
+				<title>ERROR MESSAGE: “Username is already taken“</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-32</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C264</caseid>
+								<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T17:25:45Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>email</name>
+		<description></description>
+						<tests>
+																																										<test>
+				<id>T163</id>
+				<title>1. The format of the email must be is [name]@[domain].[top-domain];</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-18</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C208</caseid>
+								<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:37:06Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T164</id>
+				<title>2. Can have [name] integer/latin/special symbols( . _ +);</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C253</caseid>
+								<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:37:16Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T165</id>
+				<title>3. This field should be unique;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-20</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C254</caseid>
+								<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:37:24Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T166</id>
+				<title>5. Must be field, required to fill</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C255</caseid>
+								<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:37:29Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T186</id>
+				<title>ERROR MESSAGE: “Email is already taken“</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-33</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C265</caseid>
+								<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T17:26:42Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>pass</name>
+		<description></description>
+						<tests>
+																																										<test>
+				<id>T167</id>
+				<title>1. Must long than 8 less than 30</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-22</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C209</caseid>
+								<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:37:45Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T168</id>
+				<title>2. Must have a number</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-23</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C210</caseid>
+								<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:37:51Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T169</id>
+				<title>3. Must have uppercase letters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-24</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C211</caseid>
+								<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:37:58Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T170</id>
+				<title>4. Should include integer/Characters/ Special Symbols;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-25</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C256</caseid>
+								<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:38:14Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2021-03-29T16:38:09Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T171</id>
+				<title>5. Must be field, required to fill</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C257</caseid>
+								<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:38:21Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T172</id>
+				<title>6. Password mask(**)</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C258</caseid>
+								<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:38:38Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T173</id>
+				<title>7. Required password form: at least one symbol, one integer, capital letter.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-37</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C259</caseid>
+								<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:39:23Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T187</id>
+				<title>ERROR MESSAGES: “Password is too weak“</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-34</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C266</caseid>
+								<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T17:46:10Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T188</id>
+				<title>ERROR MESSAGES: [field] is too short”</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C267</caseid>
+								<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T17:43:50Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T189</id>
+				<title>ERROR MESSAGES: ”[field] is too long”</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-36</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C268</caseid>
+								<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T17:44:34Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>Confirm password</name>
+		<description></description>
+						<tests>
+																																										<test>
+				<id>T175</id>
+				<title>1. Must be field, required to fill</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C260</caseid>
+								<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:39:51Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T176</id>
+				<title>2. Should be the same as the Password field.</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C261</caseid>
+								<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:39:59Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>btn Sign in</name>
+		<description></description>
+						<tests>
+																																										<test>
+				<id>T174</id>
+				<title>1. Must  create a new user</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C212</caseid>
+								<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2021-03-29T16:40:09Z</createdon>
+																		<createdby>Roman Boreiyko</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+			</section>
+</sections>
+			</section>
+</sections>
+			</section>
+</sections>
+			</section>
+</sections>
+</run>

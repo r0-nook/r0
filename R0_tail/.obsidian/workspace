@@ -8,7 +8,7 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
         }
       }
@@ -82,15 +82,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "0.4. молд/0.4. молд часть 2 .md",
-    "0.4. молд/0 мона 0.4. молд часть 2 .md",
-    "0.4. молд/4 ейсид рум 0.4. молд часть 2.md",
-    "0.4. молд/5 meeting 0.4. mold часть 2.md",
-    "0.4. молд/3 крот 0.4. молд часть 2.md",
+    "old chapteers/old version/0.1.Mold 1.3..md",
+    "old chapteers/old version/0.2.Mold 1.3..md",
+    "old chapteers/old version/0.3 Mold 1.1.md",
+    "old chapteers/old version/0.3 Mold 1.12.md",
     "структура 1.0.md",
-    "0.4. молд/6 0.4. молд часть 2.md",
-    "0.4. молд/2 школа 0.4. молд часть 2.md",
-    "2010/0.4. молд/Untitled.md",
-    "2010/0.4. молд/6 0.4. молд часть 2.md"
+    "inf2/Стая.md",
+    "inf2/бб.md",
+    "inf2/можно убить.md",
+    "inf2/история.md",
+    "inf2/Хранители.md"
   ]
 }

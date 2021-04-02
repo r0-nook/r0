@@ -8,11 +8,8 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "R0_tail/now.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -53,7 +50,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 163
+    "width": 304
   },
   "right": {
     "id": "ad3f673759020138",
@@ -69,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "R0_tail/now.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +82,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "R0_tail/now.md",
-    "R0_tail/fikbook r0.md",
-    "R0_tail/0.1. Mold 1.6..md",
-    "R0_tail/Untitled.md",
-    "R0_tail/0.10. Mold 1.1..md",
-    "R0_tail/0.9. Mold 1.1..md",
-    "R0_tail/0.8. Mold 1.1..md",
-    "R0_tail/0.6. Mold 1.6..md",
-    "R0_tail/0.5. Mold 1.6..md",
-    "R0_tail/0.4. Mold 1.6..md"
+    "R0_tail/inf2/история.md",
+    "R0_tail/структура 1.0.md",
+    "R0_tail/now work/0.5/5 неф+ом 0.5. молд. часть 1. v0.1. .md",
+    "R0_tail/now work/0.5/4 бордель 0.5. Mold. Часть 1. v0.1. .md",
+    "R0_tail/now work/0.5/3 встреча 0.5. Mold. Часть 1. v0.1. .md",
+    "R0_tail/now work/0.5/01 рум тейла до церкви 0.5. Mold. Часть 1. v0.2. .md",
+    "R0_tail/now work/0.5/черновик убежыще проверка. .md",
+    "R0_tail/now work/0.5/черновик омут фон 0.5. рекет .md",
+    "R0_tail/now work/0.5/2. мак церковь .md",
+    "R0_tail/now work/0.5/0 ейсид рум 0.5. Mold. Часть 1. v0.1. .md"
   ]
 }

@@ -1,0 +1,263 @@
+{
+	"info": {
+		"_postman_id": "529d0d94-d331-4c82-b98c-b10ac6db6a11",
+		"name": "Homework 12[Roman Boreiyko]",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function (R0_mold) {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-type",
+						"value": "application/json",
+						"description": "my",
+						"type": "text"
+					},
+					{
+						"key": "authorization",
+						"value": "Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTUyMzU1LCJ1c2VybmFtZSI6ItC6MNGL0LLQvtGB0YLRi9Cy0LvRgtGB0YvQstGJ0YLRgSIsImV4cCI6MTYyMTc2OTU4MH0._zyvBIzACxJI9nJft9uylt57V4vvtvUkj3nCETgkIzI",
+						"description": "my",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"user\":{\r\n    \"email\": \"wodrom@gmail.com\",\r\n    \"password\": \"123@#$Qwer\"\r\n  }\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://conduit.productionready.io/api/users/login",
+					"protocol": "https",
+					"host": [
+						"conduit",
+						"productionready",
+						"io"
+					],
+					"path": [
+						"api",
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Registration",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function (R0_mold) {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"user\":{\r\n    \"username\": \"derasdasrtyrr55\",\r\n    \"email\": \"dpoe121r@gmail.com\",\r\n    \"password\": \"rdeasdsdtrr\"\r\n  }\r\n}"
+				},
+				"url": {
+					"raw": "https://conduit.productionready.io/api/users",
+					"protocol": "https",
+					"host": [
+						"conduit",
+						"productionready",
+						"io"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update User",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function (R0_mold) {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "authorization",
+						"value": "Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTUyMzU1LCJ1c2VybmFtZSI6ItC6MNGL0LLQvtGB0YLRi9Cy0LvRgtGB0YvQstGJ0YLRgSIsImV4cCI6MTYyMTc2OTU4MH0._zyvBIzACxJI9nJft9uylt57V4vvtvUkj3nCETgkIzI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"user\":{\r\n    \"email\": \"wodrom@gmail.com\",\r\n    \"bio\": \"I like to skateboard\",\r\n    \"image\": \"http://prntscr.com/10uarmm\"\r\n  }\r\n}"
+				},
+				"url": {
+					"raw": "https://conduit.productionready.io/api/user",
+					"protocol": "https",
+					"host": [
+						"conduit",
+						"productionready",
+						"io"
+					],
+					"path": [
+						"api",
+						"user"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Follow user",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function (R0_mold) {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "authorization",
+						"value": "Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTUyMzU1LCJ1c2VybmFtZSI6ItC6MNGL0LLQvtGB0YLRi9Cy0LvRgtGB0YvQstGJ0YLRgSIsImV4cCI6MTYyMTc2OTU4MH0._zyvBIzACxJI9nJft9uylt57V4vvtvUkj3nCETgkIzI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://conduit.productionready.io/api/profiles/R0_mold/follow",
+					"protocol": "https",
+					"host": [
+						"conduit",
+						"productionready",
+						"io"
+					],
+					"path": [
+						"api",
+						"profiles",
+						"R0_mold",
+						"follow"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Unfollow user",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function (R0_mold) {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTUyMzU1LCJ1c2VybmFtZSI6ItC6MNGL0LLQvtGB0YLRi9Cy0LvRgtGB0YvQstGJ0YLRgSIsImV4cCI6MTYyMTc2OTU4MH0._zyvBIzACxJI9nJft9uylt57V4vvtvUkj3nCETgkIzI",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://conduit.productionready.io/api/profiles/R0_mold/follow",
+					"protocol": "https",
+					"host": [
+						"conduit",
+						"productionready",
+						"io"
+					],
+					"path": [
+						"api",
+						"profiles",
+						"R0_mold",
+						"follow"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

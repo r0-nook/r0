@@ -1,0 +1,396 @@
+{
+	"info": {
+		"_postman_id": "8443f09a-b760-425f-a343-73d028575d45",
+		"name": "Covid API",
+		"description": "Based on public data provided by Johns Hopkins CSSE.\n[Github Link](https://github.com/CSSEGISandData/COVID-19).\nPlease read the Terms of Use in the Readme file of the repository by above link before using this API.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "List of region names.",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://covid-api.com/api/regions",
+					"protocol": "https",
+					"host": [
+						"covid-api",
+						"com"
+					],
+					"path": [
+						"api",
+						"regions"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "HTTP 200 OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/regions",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"regions"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"iso\": \"CHN\",\n \"name\": \"China\"\n}"
+				}
+			]
+		},
+		{
+			"name": "List of provinces by iso code.",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://covid-api.com/api/provinces/:iso",
+					"protocol": "https",
+					"host": [
+						"covid-api",
+						"com"
+					],
+					"path": [
+						"api",
+						"provinces",
+						":iso"
+					],
+					"variable": [
+						{
+							"key": "iso",
+							"value": "schema type not provided",
+							"description": "(Required) The ISO code"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "HTTP 200 OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/provinces/:iso",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"provinces",
+								":iso"
+							],
+							"variable": [
+								{
+									"key": "iso"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"iso\": \"CHN\",\n \"name\": \"Hubei\",\n \"province\": \"Hunan\",\n \"lat\": \"29.1832\",\n \"long\": \"120.0934\"\n}"
+				},
+				{
+					"name": "HTTP 422 Unprocessable Entity",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/provinces/:iso",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"provinces",
+								":iso"
+							],
+							"variable": [
+								{
+									"key": "iso"
+								}
+							]
+						}
+					},
+					"status": "Unprocessable Entity (WebDAV) (RFC 4918)",
+					"code": 422,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n \"title\": \"HTTP Unprocessable Entity\",\n \"code\": 0,\n \"message\": \"The given data was invalid.\",\n \"fields\": {\n  \"some_field\": [\n   \"Error description array for Some Field.\"\n  ]\n }\n}"
+				}
+			]
+		},
+		{
+			"name": "List of reports.",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://covid-api.com/api/reports?date=&q=&iso=&region_name=&region_province=",
+					"protocol": "https",
+					"host": [
+						"covid-api",
+						"com"
+					],
+					"path": [
+						"api",
+						"reports"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "",
+							"description": "The date of report in the format Y-m-d | default current date"
+						},
+						{
+							"key": "q",
+							"value": "",
+							"description": "The query string for search by country/region and province"
+						},
+						{
+							"key": "iso",
+							"value": "",
+							"description": "Filter by country ISO code"
+						},
+						{
+							"key": "region_name",
+							"value": "",
+							"description": "Filter by country/region name"
+						},
+						{
+							"key": "region_province",
+							"value": "",
+							"description": "Filter by province name"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "HTTP 200 OK",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://covid-api.com/api/reports?date=2020-03-14&q=China Beijing&iso=CHN&region_name=China&region_province=Beijing",
+							"protocol": "https",
+							"host": [
+								"covid-api",
+								"com"
+							],
+							"path": [
+								"api",
+								"reports"
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "2020-03-14",
+									"description": "The date of report in the format Y-m-d | default current date"
+								},
+								{
+									"key": "q",
+									"value": "China Beijing",
+									"description": "The query string for search by country/region and province"
+								},
+								{
+									"key": "iso",
+									"value": "CHN",
+									"description": "Filter by country ISO code"
+								},
+								{
+									"key": "region_name",
+									"value": "China",
+									"description": "Filter by country/region name"
+								},
+								{
+									"key": "region_province",
+									"value": "Beijing",
+									"description": "Filter by province name"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.14.0 (Ubuntu)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 02 Apr 2020 17:21:54 GMT"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"date\": \"2020-03-14\",\n            \"confirmed\": 437,\n            \"deaths\": 8,\n            \"recovered\": 349,\n            \"confirmed_diff\": 1,\n            \"deaths_diff\": 0,\n            \"recovered_diff\": 7,\n            \"last_update\": \"2020-03-14 02:13:47\",\n            \"active\": 80,\n            \"active_diff\": -6,\n            \"fatality_rate\": 0.0183,\n            \"region\": {\n                \"iso\": \"CHN\",\n                \"name\": \"China\",\n                \"province\": \"Beijing\",\n                \"lat\": \"40.1824\",\n                \"long\": \"116.4142\",\n                \"cities\": []\n            }\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Total data by date.",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://covid-api.com/api/reports/total?date=",
+					"protocol": "https",
+					"host": [
+						"covid-api",
+						"com"
+					],
+					"path": [
+						"api",
+						"reports",
+						"total"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": ""
+						}
+					]
+				},
+				"description": "\t\nThe date of report in the format Y-m-d"
+			},
+			"response": [
+				{
+					"name": "https://covid-api.com/api/reports/total?date=2020-04-15",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://covid-api.com/api/reports/total?date=2020-04-15",
+							"protocol": "https",
+							"host": [
+								"covid-api",
+								"com"
+							],
+							"path": [
+								"api",
+								"reports",
+								"total"
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "2020-04-15"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.14.0 (Ubuntu)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 Apr 2020 10:17:48 GMT"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "2000"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "1998"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"date\": \"2020-04-15\",\n        \"last_update\": \"2020-04-15 23:04:26\",\n        \"confirmed\": 2056055,\n        \"confirmed_diff\": 82340,\n        \"deaths\": 134178,\n        \"deaths_diff\": 8268,\n        \"recovered\": 511019,\n        \"recovered_diff\": 36758,\n        \"active\": 1410858,\n        \"active_diff\": 37314,\n        \"fatality_rate\": 0.0653\n    }\n}"
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "/api",
+			"type": "string"
+		}
+	]
+}

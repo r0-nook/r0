@@ -1,0 +1,199 @@
+{
+	"info": {
+		"_postman_id": "5e8f9cc3-17d1-49f4-8c25-1e34259d0c53",
+		"name": "less16 Boreiyko Roman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Successful registration",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"user\":{\r\n    \"username\": \"r0_36\",\r\n    \"email\": \"viktrudou36@gmail.com\",\r\n    \"password\": \"1q2w3e$R\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://conduit.productionready.io/api/users",
+					"protocol": "https",
+					"host": [
+						"conduit",
+						"productionready",
+						"io"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registration with an existing email address (ER: error);",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 422\", function () {\r",
+							"    pm.response.to.have.status(422);\r",
+							"});\r",
+							"\r",
+							"var responseJSON = JSON.parse(responseBody);\r",
+							"tests['Responce contain \"errors\" property'] = responseJSON.hasOwnProperty('errors')\r",
+							"var errors = responseJSON.errors || {};\r",
+							"tests['Errors has \"email\" message'] = errors.email[0] === 'has already been taken';"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"user\":{\r\n    \"username\": \"r0_38\",\r\n    \"email\": \"viktrudou38@gmail.com\",\r\n    \"password\": \"!@#$%^&*()\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://conduit.productionready.io/api/users",
+					"protocol": "https",
+					"host": [
+						"conduit",
+						"productionready",
+						"io"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registration with an existing username (ER: error);",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 422\", function () {\r",
+							"    pm.response.to.have.status(422);\r",
+							"});\r",
+							"\r",
+							"var responseJSON = JSON.parse(responseBody);\r",
+							"tests['Responce contain \"errors\" property'] = responseJSON.hasOwnProperty('errors')\r",
+							"var errors = responseJSON.errors || {};\r",
+							"tests['Errors has \"username\" message'] = errors.username[0] === 'has already been taken';"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"user\":{\r\n    \"username\": \"r0_39\",\r\n    \"email\": \"viktrudou39@gmail.com\",\r\n    \"password\": \"1qa2ws3ed\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://conduit.productionready.io/api/users",
+					"protocol": "https",
+					"host": [
+						"conduit",
+						"productionready",
+						"io"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registration with wrong password / email / username (ER: error)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 422\", function () {\r",
+							"    pm.response.to.have.status(422);\r",
+							"});\r",
+							"\r",
+							"var responseJSON = JSON.parse(responseBody);\r",
+							"tests['Responce contain \"errors\" property'] = responseJSON.hasOwnProperty('errors')\r",
+							"var errors = responseJSON.errors || {};\r",
+							"tests['Errors has \"username\" message'] = errors.username[0] === 'has already been taken';\r",
+							"tests['Errors has \"email\" message'] = errors.email[0] === 'is invalid';\r",
+							"tests['Errors has \"password\" message'] = errors.password[0] === 'is too short (minimum is 8 characters)';"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"user\":{\r\n    \"username\": \"r0_36\",\r\n    \"email\": \"viktrudou36gmail.com\",\r\n    \"password\": \"`\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://conduit.productionready.io/api/users",
+					"protocol": "https",
+					"host": [
+						"conduit",
+						"productionready",
+						"io"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<run>
+	<id>R5</id>
+	<name>Test Run 3/23/2021</name>
+	<description></description>
+	<config></config>
+	<createdon>2021-03-23T10:46:50Z</createdon>
+		<completed>false</completed>
+		<milestone></milestone>
+	<stats>
+										<passed>
+			<percent>0</percent>
+			<count>0</count>
+		</passed>
+											<blocked>
+			<percent>0</percent>
+			<count>0</count>
+		</blocked>
+											<untested>
+			<percent>100</percent>
+			<count>15</count>
+		</untested>
+											<retest>
+			<percent>0</percent>
+			<count>0</count>
+		</retest>
+											<failed>
+			<percent>0</percent>
+			<count>0</count>
+		</failed>
+																																																				</stats>	<sections>
+		<section>
+		<name>User Logged in</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>header</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>home</name>
+		<description></description>
+									</section>
+		<section>
+		<name>new post</name>
+		<description></description>
+									</section>
+		<section>
+		<name>setting</name>
+		<description></description>
+									</section>
+		<section>
+		<name>username</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>main</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>home</name>
+		<description></description>
+									</section>
+		<section>
+		<name>home</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Your feed</name>
+		<description></description>
+									</section>
+		<section>
+		<name>GlobalFeed</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>not your article</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>like btn</name>
+		<description>1. add like</description>
+									</section>
+		<section>
+		<name>avatar&amp;user</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>btn [Follow username]</name>
+		<description></description>
+									</section>
+		<section>
+		<name>My Articles</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>article</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>Favorited Articles</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>article</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>preview-link</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>avatar&amp;username</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>comment form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>comment fild</name>
+		<description></description>
+									</section>
+		<section>
+		<name>comment btn</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>your article</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>avatar&amp;user</name>
+		<description></description>
+									</section>
+		<section>
+		<name>edit article</name>
+		<description></description>
+									</section>
+		<section>
+		<name>delete article</name>
+		<description></description>
+									</section>
+		<section>
+		<name>comment form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>comment fild</name>
+		<description></description>
+									</section>
+		<section>
+		<name>comment btn</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>Popular tags</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>new post</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>title</name>
+		<description></description>
+									</section>
+		<section>
+		<name>about</name>
+		<description></description>
+									</section>
+		<section>
+		<name>article</name>
+		<description></description>
+									</section>
+		<section>
+		<name>tag</name>
+		<description></description>
+									</section>
+		<section>
+		<name>btn [Publish Article]</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>Setting</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>avatar url</name>
+		<description></description>
+									</section>
+		<section>
+		<name>username</name>
+		<description></description>
+									</section>
+		<section>
+		<name>bio</name>
+		<description></description>
+									</section>
+		<section>
+		<name>email</name>
+		<description></description>
+									</section>
+		<section>
+		<name>pass</name>
+		<description></description>
+									</section>
+		<section>
+		<name>btn [Update Setting]</name>
+		<description></description>
+									</section>
+		<section>
+		<name>btn [Logout]</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>your user page</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>your article</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>edit profile setting</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>footer</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>1. User can go to the github.</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>header</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>home</name>
+		<description></description>
+									</section>
+		<section>
+		<name>new post</name>
+		<description></description>
+									</section>
+		<section>
+		<name>setting</name>
+		<description></description>
+									</section>
+		<section>
+		<name>username</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>User Logged out</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>header</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>logo</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Home</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Sign in</name>
+		<description></description>
+									</section>
+		<section>
+		<name>Sign up</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>main</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>home</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>GlobalFeed</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>article</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>like btn</name>
+		<description></description>
+									</section>
+		<section>
+		<name>avatar&amp;user</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>btn [Follow user]</name>
+		<description></description>
+									</section>
+		<section>
+		<name>my articles</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>avatar&amp;user</name>
+		<description></description>
+									</section>
+		<section>
+		<name>like btn</name>
+		<description></description>
+									</section>
+		<section>
+		<name>preview-link</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>avatar&amp;user</name>
+		<description></description>
+									</section>
+		<section>
+		<name>btn [Sign in]</name>
+		<description></description>
+									</section>
+		<section>
+		<name>btn [Sign up]</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>favorite articles</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>preview-link</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>avatar&amp;user</name>
+		<description></description>
+									</section>
+		<section>
+		<name>btn [Sign in]</name>
+		<description></description>
+									</section>
+		<section>
+		<name>btn [Sign up]</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>Popular tags</name>
+		<description></description>
+									</section>
+</sections>
+			</section>
+		<section>
+		<name>Sign in</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Need an account?</name>
+		<description></description>
+						<tests>
+																											<test>
+				<id>T121</id>
+				<title>1.  Must redirected on the &quot;Sign up&quot; form</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C198</caseid>
+								<status>Untested</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																		<changes>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>email</name>
+		<description></description>
+						<tests>
+																											<test>
+				<id>T122</id>
+				<title>&quot;1. Must contain @</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C199</caseid>
+								<status>Untested</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																		<changes>
+									</changes>
+			</test>
+																														<test>
+				<id>T123</id>
+				<title>2. Must be no empty&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C200</caseid>
+								<status>Untested</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																		<changes>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>pass</name>
+		<description></description>
+						<tests>
+																											<test>
+				<id>T124</id>
+				<title>1. Must be no empty</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C201</caseid>
+								<status>Untested</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																		<changes>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>btn [Sign in]</name>
+		<description></description>
+						<tests>
+																											<test>
+				<id>T125</id>
+				<title>1. Must go login</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C202</caseid>
+								<status>Untested</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																		<changes>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+			</section>
+</sections>
+			</section>
+		<section>
+		<name>Sign up</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>Have an account?</name>
+		<description></description>
+						<tests>
+																											<test>
+				<id>T126</id>
+				<title>1.  Must redirected on the &quot;Sign in&quot; form</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C203</caseid>
+								<status>Untested</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																		<changes>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>form</name>
+		<description></description>
+										<sections>
+		<section>
+		<name>user</name>
+		<description></description>
+						<tests>
+																											<test>
+				<id>T127</id>
+				<title>1. Must not registered username wich the simbols %$#@^&amp;()</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C204</caseid>
+								<status>Untested</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																		<changes>
+									</changes>
+			</test>
+																														<test>
+				<id>T128</id>
+				<title>2. Must registered username wich simbols length more then 10</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C205</caseid>
+								<status>Untested</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																		<changes>
+									</changes>
+			</test>
+																														<test>
+				<id>T129</id>
+				<title>3. Must not register username that consist of empty spaces</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C206</caseid>
+								<status>Untested</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																		<changes>
+									</changes>
+			</test>
+																														<test>
+				<id>T130</id>
+				<title>4. Must Register new user with username r0_mold</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C207</caseid>
+								<status>Untested</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																		<changes>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>email</name>
+		<description></description>
+						<tests>
+																											<test>
+				<id>T131</id>
+				<title>1. Must contain @</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C208</caseid>
+								<status>Untested</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																		<changes>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>pass</name>
+		<description></description>
+						<tests>
+																											<test>
+				<id>T132</id>
+				<title>1. Must be long then 8 less then 12</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C209</caseid>
+								<status>Untested</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																		<changes>
+									</changes>
+			</test>
+																														<test>
+				<id>T133</id>
+				<title>2. Must have a number</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C210</caseid>
+								<status>Untested</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																		<changes>
+									</changes>
+			</test>
+																														<test>
+				<id>T134</id>
+				<title>3. Must have a uppercase letters</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C211</caseid>
+								<status>Untested</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																		<changes>
+									</changes>
+			</test>
+								</tests>
+							</section>
+		<section>
+		<name>btn Sign in</name>
+		<description></description>
+						<tests>
+																											<test>
+				<id>T135</id>
+				<title>1. Must  create new user</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references>CR-3</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+									</custom>
+												<caseid>C212</caseid>
+								<status>Untested</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																		<changes>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+			</section>
+</sections>
+			</section>
+</sections>
+			</section>
+</sections>
+			</section>
+</sections>
+</run>

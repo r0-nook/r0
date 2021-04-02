@@ -76,6 +76,7 @@ function calculateProfit(amount, percent, period) {
 
 
 ________________
+
 function getYears(amount, percent, limit) {
   // write code here
   let amounts = amount;
@@ -90,4 +91,65 @@ function getYears(amount, percent, limit) {
   };
 
   return number;
+}
+
+________________
+
+function getWinner(maxSolved, romanSolved) {
+  if (+maxSolved > +romanSolved) {
+    return 'Max winner!!!';
+  } else if (+maxSolved < +romanSolved) {
+    return 'Roman winner!!!';
+  } else {
+    return 'Roman and Maxim are the winners!!!';
+  };
+};
+
+
+
+___________________________
+logical operator conthey book
+'use strict';
+/**
+ * @param {number} adultsCount
+ * @param {number} childrenCount
+ *
+ * @returns boolean
+ */
+function canTheyBook(adultsCount = 0, childrenCount = 0) {
+  const people = adultsCount + childrenCount <= 8;
+  const adult = adultsCount > 0;
+  const maxTwo = adultsCount * 2 >= childrenCount;
+  return people && adult && maxTwo;
+  // const sum = adultsCount + childrenCount;
+  // const childTwo = childrenCount / adultsCount;
+  // if (sum <= 8 && adultsCount !== 0 && childTwo <= 2) {
+  //   return true;
+  // } else {
+  //   return false;
+  // }
+}
+
+
+
+__________________________________
+logical operator 2
+'use strict';
+/**
+* @param {number} adultsCount
+* @param {number} childrenCount
+* @param {number} babiesCount
+*
+* @returns {boolean}
+*/
+function canTheyBook(adultsCount, childrenCount = 0, babiesCount = 0) {
+  const all = adultsCount + childrenCount;
+  const allPlus = all + babiesCount;
+  if (allPlus <= 9
+    && all <= 8
+    && adultsCount >= 1
+    && childrenCount + babiesCount <= adultsCount * 2) {
+    return true;
+  }
+  return false;
 }

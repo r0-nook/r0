@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "b1823fdd-1494-4ca8-95e3-be1e9d1bc212",
+		"name": "Homework 13 [Roman Boreiyko]",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "List of region names",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://covid-api.com/api/regions",
+					"protocol": "https",
+					"host": [
+						"covid-api",
+						"com"
+					],
+					"path": [
+						"api",
+						"regions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List of provinces by iso code.",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "curl --location --request GET '/api/provinces/ukr'"
+				},
+				"url": {
+					"raw": "https://covid-api.com/api/provinces/:iso",
+					"protocol": "https",
+					"host": [
+						"covid-api",
+						"com"
+					],
+					"path": [
+						"api",
+						"provinces",
+						":iso"
+					],
+					"variable": [
+						{
+							"key": "iso",
+							"value": "ukr"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List of reports.",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://covid-api.com/api/reports?date=2021-03-24&region_province=Poltava oblast",
+					"protocol": "https",
+					"host": [
+						"covid-api",
+						"com"
+					],
+					"path": [
+						"api",
+						"reports"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2021-03-24"
+						},
+						{
+							"key": "iso",
+							"value": "ukr",
+							"disabled": true
+						},
+						{
+							"key": "region_name",
+							"value": "Ukraine",
+							"disabled": true
+						},
+						{
+							"key": "region_province",
+							"value": "Poltava oblast"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Total data by date.",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://covid-api.com/api/reports/total?date=2021-03-24",
+					"protocol": "https",
+					"host": [
+						"covid-api",
+						"com"
+					],
+					"path": [
+						"api",
+						"reports",
+						"total"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2021-03-24"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
