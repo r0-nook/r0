@@ -6,12 +6,11 @@
       {
         "id": "779d8bf62835059e",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "R0_tail/now work/0.5/0.5. Mold. Часть 1. v0.95..md",
-            "mode": "source"
+            "file": "R0_tail/old chapteers/after beta & i/0.5. Mold. Часть 1. v1.1..md",
+            "mode": "preview"
           }
         }
       }
@@ -69,10 +68,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "R0_tail/now work/0.5/0.5. Mold. Часть 1. v0.95..md",
+                "file": "R0_tail/old chapteers/after beta & i/0.5. Mold. Часть 1. v1.1..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -85,7 +86,9 @@
     "width": 300,
     "collapsed": true
   },
+  "active": "779d8bf62835059e",
   "lastOpenFiles": [
+    "R0_tail/old chapteers/after beta & i/0.5. Mold. Часть 1. v1.0..md",
     "R0_tail/now work/0.5/0.5. Mold. Часть 1. v0.95..md",
     "R0_tail/now work/0.5/5. лаба лунг .md",
     "R0_tail/now work/0.5/0-4 0.5. Mold. Часть 1. v0.95..md",
@@ -94,7 +97,6 @@
     "R0_tail/now work/0.5/4 бордель 0.5. Mold. Часть 1. v0.1. .md",
     "R0_tail/структура 1.0.md",
     "R0_tail/inf2/история.md",
-    "R0_tail/now work/0.5/3 встреча 0.5. Mold. Часть 1. v0.1. .md",
-    "R0_tail/now work/0.5/01 рум тейла до церкви 0.5. Mold. Часть 1. v0.2. .md"
+    "R0_tail/now work/0.5/3 встреча 0.5. Mold. Часть 1. v0.1. .md"
   ]
 }
