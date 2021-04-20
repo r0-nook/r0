@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "3d42ac64318d8ca3",
+    "type": "split",
+    "children": [
+      {
+        "id": "78006a7d77bb059a",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6001ec7afbf0ecdc",
+    "type": "split",
+    "children": [
+      {
+        "id": "67a6ae89ea50ab54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27b91052d83c58bf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7ee9ba2d57d7210d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fbbfcab707acf1b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "58acaf92b6b44577",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1643258398ea1da5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "78006a7d77bb059a",
+  "lastOpenFiles": [
+    "dirt/0.0.1.1.1 структура сплетница клин между омут и грибник.md",
+    "dirt/fon sheet/черновик убежыще проверка. .md",
+    "dirt/fon sheet/фон панацея.md",
+    "dirt/fon sheet/Выверт.md",
+    "dirt/nextscene/0.8. письмо омута .md",
+    "dirt/nextscene/0.6. поступок .md",
+    "dirt/scene/0.3. параноя .md",
+    "dirt/scene/0.1.2. лунг мак костёр новая волна ютюб ролик.md",
+    "dirt/scene/0.1 0.5. митинг вместе с нефорами Mold. Часть 2. v0.1..md. .md",
+    "dirt/scene/0.0.1.1 отчет сплетниы.md"
+  ]
+}
