@@ -6,7 +6,6 @@
       {
         "id": "e3212b1660d030a3",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "graph",
           "state": {}
@@ -69,6 +68,8 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -81,6 +82,7 @@
     "width": 300,
     "collapsed": true
   },
+  "active": "e3212b1660d030a3",
   "lastOpenFiles": [
     "old chapteers/old version/0.1.Mold 1.3..md",
     "old chapteers/old version/0.2.Mold 1.3..md",
