@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "e44c4c2d18530fd0",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f2770e4c427158c",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c1c01cbbba83ce2d",
+    "type": "split",
+    "children": [
+      {
+        "id": "6fe2a0962a3c2f81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c15b7ba1447ae3c4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3f1b354c5f50b013",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 264
+  },
+  "right": {
+    "id": "dbe4fc284ef6bbea",
+    "type": "split",
+    "children": [
+      {
+        "id": "5aa920506ae219cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "36c2b362bb94065e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0f2770e4c427158c",
+  "lastOpenFiles": [
+    "Тейла/2. Тейла Лиза Алек.md",
+    "Тейла/3. Тейла Алек.md",
+    "лиза/реридено/0. лиза комната.md",
+    "алек/алек структура.md",
+    "алек/Untitled.md",
+    "алек/5. алек тейла размазано.md",
+    "алек/4. алек утро.md",
+    "реридено/R0_.md",
+    "реридено/структура 1.0.md",
+    "алек/3. алек побег.md"
+  ]
+}

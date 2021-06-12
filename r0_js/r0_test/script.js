@@ -1,34 +1,20 @@
-'use strict';
-debugger;
+'use strict'; debugger;
 
-const friends = [{
-  username: 'Alice',
-  status: 'online',
-  lastActivity: 10
-}, {
-  username: 'Lucy',
-  status: 'offline',
-  lastActivity: 22
-}, {
-  username: 'Bob',
-  status: 'online',
-  lastActivity: 104
-}];
+const n = 123450;
 
-  const rResult = {
-    online: [],
-    offline: [],
-    away: [],
-  };
+// function isSpecialNumber(n) {
+  // write code here
+  const r0 = 'Special!!';
+  const r1 = 'NOT!!';
+  const r2 = String(n).split('').map(Number);
 
-  for (const rKey of friends) {
-    if (rKey.status === 'online' && rKey.lastActivity <= 10) {
-      rResult.online.push(rKey.username);
-    } else if (rKey.status === 'online' && rKey.lastActivity > 10) {
-      rResult.away.push(rKey.username);
-    } else if (rKey.status === 'offline') {
-      rResult.offline.push(rKey.username);
-    }
-  }
+  // for (i = 0; i < r2.length; i++) {
+  //   if (r2[i] >= 0 && r2[i] <= 5) {
+  //     alert(r0);
+  //   } else {
+  //     alert(r1);
+  //   }
+  // }
+// }
 
-  alert(rResult)
+// alert(r4);
