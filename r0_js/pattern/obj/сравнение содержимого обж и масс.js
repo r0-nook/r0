@@ -1,4 +1,3 @@
-
 function getKiller(suspects, dead) {
   for (const rKill in suspects) {
     let rCount = 0;

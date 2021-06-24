@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "0f2770e4c427158c",
+        "id": "2a798037f3ebe6d5",
         "type": "leaf",
         "state": {
           "type": "graph",
@@ -49,7 +49,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264
+    "width": 325
   },
   "right": {
     "id": "dbe4fc284ef6bbea",
@@ -70,8 +70,8 @@
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -82,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0f2770e4c427158c",
+  "active": "2a798037f3ebe6d5",
   "lastOpenFiles": [
-    "Тейла/2. Тейла Лиза Алек.md",
-    "Тейла/3. Тейла Алек.md",
-    "лиза/реридено/0. лиза комната.md",
-    "алек/алек структура.md",
-    "алек/Untitled.md",
-    "алек/5. алек тейла размазано.md",
-    "алек/4. алек утро.md",
-    "реридено/R0_.md",
-    "реридено/структура 1.0.md",
-    "алек/3. алек побег.md"
+    "алек/Алек/5..md",
+    "13.md",
+    "алек/Тремор Взлом/Тремор Взлом.md",
+    "алек/-1. атака фургон СКП.md",
+    "алек/7. а б.md",
+    "алек/6. А т.md",
+    "алек/Алек/4.1..md",
+    "алек/5. а т.md",
+    "алек/Алек/4..md",
+    "алек/Алек/3..md"
   ]
 }
