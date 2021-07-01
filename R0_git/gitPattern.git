@@ -13,14 +13,13 @@ git commit => ESC => :wq => enter
 	hist = "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
   	type= "cat-file -t"
   	dump= "cat-file -p"
-	rgi= 'git init'
-	rgs= "git status"
-	rgi= "git init"
-	rga= "git add"
-	rgc= "git commit -m"
-	rgb= "git branch"
+	gi= 'git init'
+	gs= "git status"
+	ga= "git add"
+	gc= "git commit -m"
+	gb= "git branch"
 	r0= "git commit -m 'r0'"
-	rgp= "git push"
+	gp= "git push"
 	got='git '
 	get='git '
 
