@@ -18,7 +18,6 @@ alias gs=git status
 alias gi=git init
 alias ga=git add
 alias gc=git commit -m
-alias gc=git commit
 alias gb=git branch
 alias r0=git commit -m 'r0'
 alias gp=git push
