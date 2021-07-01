@@ -1,7 +1,3 @@
-function isNumb(obj) {
-   return obj !== "undefined" && typeof(obj) === 'number' && !isNaN(obj);
-}
-let r0 = [];
-if (isNumb(r0)) {
-	return true;
+function isNumb(r0) {
+   return r0 !== "undefined" && typeof(r0) === 'number' && !isNaN(r0) && Number.isInteger(r0)
 }

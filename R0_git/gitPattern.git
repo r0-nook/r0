@@ -1,0 +1,15 @@
+touch - создание файла
+mkdir - создание директории
+git init
+git add .
+git commit -m 
+
+git commit -m "комментарий к комиту"
+git commit => ESC => :wq => enter
+
+[alias]
+	i = init
+	a = add .
+	c = commit -m 
+	r0 = commit -m 'r0'
+	p = push

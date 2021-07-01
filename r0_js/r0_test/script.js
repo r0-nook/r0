@@ -1,13 +1,13 @@
 'use strict';
 debugger;
 
-  let friends = ["Ryan", "Kieran", "Mark"];
-  const r0 = [];
-  for (let i = 0; i < friends.length; i++) {
-    const r1 = friends[i].length;
-    if (friends[i].length === 4) {
-      r0.push(friends[i]);
-    }
-  }
-  // return r0;
-  // const r0;
+let last[], today, cycleLength;
+  let yearlast, yeartoday, todaymonth, lastmonth, day, i;
+    yearlast = last[0] * 365;
+    lastmonth = last[1] * 30;
+    yeartoday = today[0] * 365;
+    todaymonth = today[1] * 30;
+  let lastr = yearlast + lastmonth + last[2];
+  let todayr = yeartoday + todaymonth + today[2];
+  let result = lastr - todayr;
+  return result < cycleLength ? true : false;

@@ -1,17 +1,13 @@
-//чисто
-let rMax = array.reduce((r0, r1) => r0 > r1 ? r0 : r1);
-let rMin = array.reduce((r0, r1) => r0 < r1 ? r0 : r1);
-
-// for версия мин
-let rMin = numbers[0];
-for (const i of numbers) {rMin > i ? rMin = i : 0}
+//еще тупее
+const min = (arr) => Math.min(...arr);
+const max = (arr) => Math.max(...arr);
 
 //тупо
 function arrayMin(arr) {
-  return arr.reduce(function (p, v) {    return ( p < v ? p : v );  });
+   return arr.reduce((a,b)=>a<b?a:b);
 }
 function arrayMax(arr) {
-  return arr.reduce(function (p, v) {    return ( p > v ? p : v );  })
+  return arr.reduce((a,b)=>a>b?a:b);
 }
 
 /// скорость
