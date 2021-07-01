@@ -2,7 +2,7 @@ touch - создание файла
 mkdir - создание директории
 git init
 git add .
-git commit -m 
+git commit -m
 
 git commit -m "комментарий к комиту"
 git commit => ESC => :wq => enter
@@ -10,6 +10,17 @@ git commit => ESC => :wq => enter
 [alias]
 	i = init
 	a = add .
-	c = commit -m 
-	r0 = commit -m 'r0'
+	c = commit -m
 	p = push
+
+в конему можно добавлять алиасы через консоль например
+alias gs=git status
+alias gi=git init
+alias ga=git add
+alias gc=git commit -m
+alias gc=git commit
+alias gb=git branch
+alias r0=git commit -m 'r0'
+alias gp=git push
+но добавлять нужно, почему то по одному за раз
+MQHNi4LVfxvgYzR
