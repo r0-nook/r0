@@ -45,3 +45,4 @@ git commit => ESC => :wq => enter
 git config --global --unset alias.имяалиаса
 git config --global --unset alias -all
 
++380508252738
