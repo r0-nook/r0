@@ -7,11 +7,22 @@ git commit -m
 git commit -m "комментарий к комиту"
 git commit => ESC => :wq => enter
 
+работают почему то только в баше но не в конему
+	а некоторые хуяк и снова работают
 [alias]
-	i = init
-	a = add .
-	c = commit -m
-	p = push
+	hist = "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+  type= "cat-file -t"
+  dump= "cat-file -p"
+	rgi= 'git init'
+	rgs= "git status"
+	rgi= "git init"
+	rga= "git add"
+	rgc= "git commit -m"
+	rgb= "git branch"
+	r0= "git commit -m 'r0'"
+	rgp= "git push"
+	got='git '
+	get='git '
 
 в конему можно добавлять алиасы через консоль например
 alias gs=git status
@@ -28,3 +39,9 @@ git config --global alias.ga "git add"
 
 Эта команда покажет в каких они файлах.
 git config --show-origin --list
+
+очистка алиасов
+git config --global --unset-all
+git config --global --unset alias.имяалиаса
+git config --global --unset alias -all
+
