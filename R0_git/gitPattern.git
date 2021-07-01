@@ -24,3 +24,5 @@ alias r0=git commit -m 'r0'
 alias gp=git push
 но добавлять нужно, почему то по одному за раз
 MQHNi4LVfxvgYzR
+
+git config --global alias.ga "git add"
