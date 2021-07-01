@@ -11,8 +11,8 @@ git commit => ESC => :wq => enter
 	а некоторые хуяк и снова работают
 [alias]
 	hist = "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
-  type= "cat-file -t"
-  dump= "cat-file -p"
+  	type= "cat-file -t"
+  	dump= "cat-file -p"
 	rgi= 'git init'
 	rgs= "git status"
 	rgi= "git init"
@@ -24,24 +24,25 @@ git commit => ESC => :wq => enter
 	got='git '
 	get='git '
 
-в конему можно добавлять алиасы через консоль например
-alias gs=git status
-alias gi=git init
-alias ga=git add
-alias gc=git commit -m
-alias gb=git branch
-alias r0=git commit -m 'r0'
-alias gp=git push
-но добавлять нужно, почему то по одному за раз
-MQHNi4LVfxvgYzR
+	в конему можно добавлять алиасы через консоль например
+	в гит баш добавляй с "" в конему вроде без нужно
+	alias gs=git status
+	alias gi=git init
+	alias ga="git add"
+	alias gc=git commit -m
+	alias gb=git branch
+	alias r0=git commit -m 'r0'
+	alias gp="git push"
+	но добавлять нужно, почему то по одному за раз
+	MQHNi4LVfxvgYzR
 
-git config --global alias.ga "git add"
+	git config --global alias.ga "git add"
 
 Эта команда покажет в каких они файлах.
-git config --show-origin --list
+	git config --show-origin --list
 
 очистка алиасов
-git config --global --unset-all
+	git config --global --unset-all
 git config --global --unset alias.имяалиаса
 git config --global --unset alias -all
 
