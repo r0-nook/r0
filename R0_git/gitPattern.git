@@ -11,6 +11,10 @@ git commit => ESC => :wq => enter
 	git checkout master
 	git checkout -b названиеВетки
 
+git sta{tab} это git status
+
+git add com{tab} это git add components
+
 работают почему то только в баше но не в конему
 	а некоторые хуяк и снова работают
 [alias]
@@ -40,7 +44,7 @@ git commit => ESC => :wq => enter
 	MQHNi4LVfxvgYzR
 
 	git config --global alias.ga "git add"
-
+	git config --global alias.gch "git checkout"
 	Эта команда покажет в каких они файлах алиасы.
 		git config --show-origin --list
 
@@ -49,4 +53,10 @@ git commit => ESC => :wq => enter
 		git config --global --unset alias.имяалиаса
 		git config --global --unset alias -all
 
-+380508252738
+	# add commit  push одной командой
+		function gacp() {
+		    git add .
+		    git commit -m "$r0"
+		    git push
+		}
+	+380508252738
