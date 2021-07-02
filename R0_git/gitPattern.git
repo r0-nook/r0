@@ -18,6 +18,7 @@ git add com{tab} это git add components
 работают почему то только в баше но не в конему
 	а некоторые хуяк и снова работают
 [alias]
+	для конему в файле user-aliases.cmd
 	hist = "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
   	type= "cat-file -t"
   	dump= "cat-file -p"
@@ -44,7 +45,7 @@ git add com{tab} это git add components
 	MQHNi4LVfxvgYzR
 
 	git config --global alias.ga "git add"
-	git config --global alias.gch "git checkout"
+	git config --global alias.gch git checkout -b
 	Эта команда покажет в каких они файлах алиасы.
 		git config --show-origin --list
 
