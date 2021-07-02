@@ -7,6 +7,10 @@ git commit -m
 git commit -m "комментарий к комиту"
 git commit => ESC => :wq => enter
 
+создание ветки из продакшина
+	git checkout master
+	git checkout -b названиеВетки
+
 работают почему то только в баше но не в конему
 	а некоторые хуяк и снова работают
 [alias]
@@ -37,12 +41,12 @@ git commit => ESC => :wq => enter
 
 	git config --global alias.ga "git add"
 
-Эта команда покажет в каких они файлах.
-	git config --show-origin --list
+	Эта команда покажет в каких они файлах алиасы.
+		git config --show-origin --list
 
-очистка алиасов
-	git config --global --unset-all
-git config --global --unset alias.имяалиаса
-git config --global --unset alias -all
+	очистка алиасов
+		git config --global --unset-all
+		git config --global --unset alias.имяалиаса
+		git config --global --unset alias -all
 
 +380508252738
