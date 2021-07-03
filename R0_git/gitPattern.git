@@ -19,6 +19,7 @@ git add com{tab} это git add components
 	а некоторые хуяк и снова работают
 [alias]
 	для конему в файле user-aliases.cmd
+
 	hist = "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
   	type= "cat-file -t"
   	dump= "cat-file -p"
@@ -60,4 +61,7 @@ git add com{tab} это git add components
 		    git commit -m "$r0"
 		    git push
 		}
+		или
+		gacp=git add . $t git commit "$r048" $t git push
+
 	+380508252738

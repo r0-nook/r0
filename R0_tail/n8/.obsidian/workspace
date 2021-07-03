@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "c5422a84c74ac643",
+    "id": "0789aa0b2b0eda3f",
     "type": "split",
     "children": [
       {
-        "id": "e3212b1660d030a3",
+        "id": "9a5522cda8405dda",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "inf/reread.md",
+            "file": "Тремор/0. Вход/лиза/Tats.md",
             "mode": "source"
           }
         }
@@ -18,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "211ef2db3bb0cb9d",
+    "id": "6150a27d513caaa2",
     "type": "split",
     "children": [
       {
-        "id": "fe4a36cecdfc0260",
+        "id": "6b7914b227059225",
         "type": "tabs",
         "children": [
           {
-            "id": "5081f80d67c6bba1",
+            "id": "6e7b9b356ff0c647",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,7 +34,7 @@
             }
           },
           {
-            "id": "f2bc65bc78a5f543",
+            "id": "03cdf30b05795c22",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -52,23 +52,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264
+    "width": 300
   },
   "right": {
-    "id": "00389069baa3023c",
+    "id": "688708a5a78bfd0f",
     "type": "split",
     "children": [
       {
-        "id": "aa3de0c1b15f56ee",
+        "id": "c4d578e231280f2c",
         "type": "tabs",
         "children": [
           {
-            "id": "d2b8736a4bc957e9",
+            "id": "4c05572c45c3da4b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inf/reread.md",
+                "file": "Тремор/0. Вход/лиза/Tats.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e3212b1660d030a3",
+  "active": "9a5522cda8405dda",
   "lastOpenFiles": [
-    "inf/reread.md",
-    "inf/wog/шарды.md",
-    "inf/wog/тригеры.md",
-    "inf/oth/Dono Omen Memoria.md",
-    "inf/oth/Магический Технарь.md",
-    "inf/oth/идеи.md",
-    "inf/oth/жесты стаи.md",
-    "R0_/volatile/dirt/scena/newter тритон/0.3. трип тритон.md",
-    "R0_/volatile/dirt/scena/0.4. прядь богиня .md",
-    "R0_/volatile/dirt/scena/огрызки волатил 1. .md"
+    "Тремор/0. Вход/лиза/Tats.md",
+    "Тремор/0. Вход/лиза/Цели поставленные перед лизой заказчиком.md",
+    "Тремор/0. Вход/лиза/сцены/8. Вопросы от Перекидышей о силе Лизы.md",
+    "Тремор/0. Вход/лиза/сцены/7. Вопросы Перекидышам о прошлом.md",
+    "Тремор/0. Вход/лиза/сцены/5. Вопросы Перекидышам о Пряди.md",
+    "Тремор/0. Вход/лиза/сцены/3. Муравейник Игра.md",
+    "Тремор/0. Вход/лиза/сцены/2. Муравейник Гриб.md",
+    "Тремор/0. Вход/лиза/сцены/0. Результаты слежки..md",
+    "Тремор/0. Вход/лиза/сцены/1. Слежка Алек Браян Дрём Гриб.md",
+    "Тремор/0. Вход/лиза/сцены/0. Диалог Мак Арлекин отвлечение.md"
   ]
 }
