@@ -1,13 +1,16 @@
 'use strict';
 debugger;
 
-let last[], today, cycleLength;
-  let yearlast, yeartoday, todaymonth, lastmonth, day, i;
-    yearlast = last[0] * 365;
-    lastmonth = last[1] * 30;
-    yeartoday = today[0] * 365;
-    todaymonth = today[1] * 30;
-  let lastr = yearlast + lastmonth + last[2];
-  let todayr = yeartoday + todaymonth + today[2];
-  let result = lastr - todayr;
-  return result < cycleLength ? true : false;
+	let numbers = [1, 3, 1, 5, 2, 5, 2, 6, 3];
+
+	const rMax = [];
+	let r5 = 5, rNumbers = [...numbers];
+
+	while (r5) {
+		const r0 = rNumbers.reduce((a,b)=>a>b?a:b);
+
+		r5--; rMax.push(r0);
+		rNumbers.splice(rNumbers.indexOf(r0), 1);
+	}
+
+	const r1 = rMax;

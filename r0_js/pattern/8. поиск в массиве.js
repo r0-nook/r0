@@ -6,8 +6,8 @@
 	for (const i of rArr){rMin > i ? rMin = i : 0}
 
 //чисто
-let rMax = array.reduce((r0, r1) => r0 > r1 ? r0 : r1);
-let rMin = array.reduce((r0, r1) => r0 < r1 ? r0 : r1);
+let rMax = array.reduce((a, i) => a > i ? a : i);
+let rMin = array.reduce((a, i) => a < i ? a : i);
 
 // поиск большего ел в масс через два фор
 	for (let i = 0; i < rArr.length; i++) {
