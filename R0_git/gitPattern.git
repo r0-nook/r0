@@ -66,3 +66,7 @@ git add com{tab} это git add components
 
 	+380508252738
 D:\googledownload\cmder\config
+editor = code --wait -n
+
+.gitconfig
+	editor = \"D:\\googledownload\\SublimeText3\\sublime_text.exe\" -w
