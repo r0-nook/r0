@@ -7,6 +7,12 @@ git commit -m
 git commit -m "комментарий к комиту"
 git commit => ESC => :wq => enter
 
+// переход на главную
+	git checkout main
+
+// слияние ветки с текущей
+	git merge название_ветки
+
 создание ветки из продакшина
 	git checkout master
 	git checkout -b названиеВетки
@@ -67,22 +73,22 @@ git add com{tab} это git add components
 
 	+380508252738
 D:\googledownload\cmder\config
-editor = code --wait -n
+	editor = code --wait -n
 
 .gitconfig
 	editor = \"D:\\googledownload\\SublimeText3\\sublime_text.exe\" -w
 
 
 git fetch
-Try git fetch so that your local repository gets all the new info from github. It just takes the information about new branches and no actual code. After that the git checkout should work fine.
+	Try git fetch so that your local repository gets all the new info from github. It just takes the information about new branches and no actual code. After that the git checkout should work fine.
 
-в user_aliases.cmd conemu записано
-gs=git status
-gi=git init
-ga=git add .
-r0=git commit -m 'r0'
-gc=git commit
-gp=git push --all
-gacp=git add . $t git commit -m "moldcalm" $t git push --all
-gh=git checkout
-gb=git branch
+	в user_aliases.cmd conemu записано
+		gs=git status
+		gi=git init
+		ga=git add .
+		r0=git commit -m 'r0'
+		gc=git commit
+		gp=git push --all
+		gacp=git add . $t git commit -m "moldcalm" $t git push --all
+		gh=git checkout
+		gb=git branch
