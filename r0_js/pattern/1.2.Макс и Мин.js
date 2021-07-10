@@ -1,14 +1,57 @@
-//еще тупее
-const min = (arr) => Math.min(...arr);
-const max = (arr) => Math.max(...arr);
+// внемасива
+  if(a>b) {rMax=a; rMin=b;} else {rMax=b; rMin=a;};
+//Math.
+  const max = (arr) => Math.max(...arr);
+  const min = (arr) => Math.min(...arr);
+//.reduce
+let rMax=arr.reduce((a,i)=>a>i?a:i);
+let rMin=arr.reduce((a,i)=>a<i?a:i);
+// for макс
+  let rMax = 0;
+  for(const i of rArr){i>rMax?rMax=i:0}
+// for мин
+  let rMin = rArr[0];
+  for(const i of rArr){i<rMin?rMin=i:0}
 
-//тупо
-function arrayMin(arr) {
-   return arr.reduce((a,b)=>a<b?a:b);
+//sort by max
+for (const i of rArr) {
+  let rMax = rClon.reduce((a,i)=>a>i ? a:i);
+  rResult.push(rMax);
+  rClon.splice(rClon.indexOf(rMax), 1);
 }
-function arrayMax(arr) {
-  return arr.reduce((a,b)=>a>b?a:b);
-}
+rResult = Number(rResult.join(''));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /// скорость
 function arrayMin(arr) {

@@ -1,9 +1,3 @@
-// min
-	let rMin = array.reduce((r0, r1) => r0 < r1 ? r0 : r1);
-// for мин
-	let rMin = array[0];
-	for (const i of array) {rMin > i ? rMin = i : 0}
-
 //reduce
 const points=array=>array.reduce((rAccum,i)=>{
     return rAccum += i[0]>i[2] ? 3 : i[0]===i[2] ? 1 : 0;

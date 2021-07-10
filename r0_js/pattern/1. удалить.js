@@ -23,3 +23,5 @@
 	rArr = rArr.filter(rEl => rEl !== del);
 // удалить пробелы
 	rArr = str.split(' ').filter(n => n);
+// удалить пробелы в начале и в конце строки
+	str = str.trim();
