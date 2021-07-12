@@ -13,7 +13,7 @@
 // фор иф
   for (let i = 0; i < rArr.length; i++) {
     if (rMax === rArr[i]) {rArr.splice(i, 1); break
-// for number
+// for найти числа
   for (let i = 0; i < rArr.length; i++) {
     if (typeof rArr[i] === 'number') {
 //.includes
@@ -24,3 +24,21 @@ for(let i=1; i<=n; i++) i%2==1 ? /**/ :0
 for(let i=2; i<=n; i++) i%2==0 ? /**/ :0
 // найти больший общий делитель через алг Евклида
   while(a!==b)a>b ? a=a-b : b=b-a
+// найти простое или составное число
+let i=2, j=0;
+while(i*i <= n && j != 1){
+  if(n%i === 0){j=1;i++;}else{i++}
+}
+return j===1 ? "Составное число" : "Простое число";
+// найти простое число
+Простое число делится без остатка только на 1 и на себя.
+Не простое число делится без остатка на числа перед ним, на себя, на 1.
+let i=2, rPrime='';
+nextPrime:
+for(i;i<n;i++){
+  for(let j=2; j<i; j++){
+    if(i%j === 0)continue nextPrime
+  }
+    rPrime += i + ' ';
+}
+return rPrime;

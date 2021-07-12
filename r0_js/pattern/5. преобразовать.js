@@ -21,3 +21,6 @@ function countLettersInString(str) {
 
 // округление преобразование в целое
 	parseInt(seconds % rHour1 / rMinutes1)
+
+// диапазон в масив
+for(i;i<a;i++)r.push(i)

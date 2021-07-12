@@ -1,11 +1,22 @@
-//reduce
+// for to map
+for (let i = 0; i < rArr.length; i++) {
+ if (rArr[i] < 5) {
+   rResult.push(0);
+ } else {
+   rResult.push(1);
+ }
+}
+
+// for to map
+rArr.map(n=> n<5 ? 0:1)
+
+//for to reduce
 const points=array=>array.reduce((rAccum,i)=>{
     return rAccum += i[0]>i[2] ? 3 : i[0]===i[2] ? 1 : 0;
   },0)
 
-// for
+//for to reduce
 let rAccum = 0;
-
 for (let i = 0; i < array.length; i++) {
   if (array[i][0] > array[i][2]) {
     rAccum += 3;

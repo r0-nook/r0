@@ -1,7 +1,9 @@
 // сортировка масива чисел от мин до макс
-	rArr.sort((a,b) => a - b);
+	rArr.sort((a,b)=> a - b);
 // сортировка масива чисел от макс до мин
-	rArr.sort((a,b) => b - a);
+	rArr.sort((a,b)=> b - a);
+// сортировка масива символов
+	rArr.sort((a,b)=> b.localeCompare(a));
 // реверс абс
 	myarray.sort().reverse()
 // revers

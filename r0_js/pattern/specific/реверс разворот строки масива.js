@@ -6,3 +6,7 @@ return rEnd.join(' '); // сшивание масс через пробел в �
 
 //////// alt
 return str.split(' ').reverse().join(' ');
+
+////////////
+var str = '12345';
+[].map.call(str, function(x) {return x}).reverse().join('');

@@ -1,6 +1,6 @@
 // удаление одного елеммента из массива
 	for (let i = 0; i < r2.length; i++){if(){delete r2[i]}
-
+		r2.filter(Number);
 // удаление елеммента из массива
 	for (let i = 0; i < numbers.length; i++){if(){r0.splice(i, 1)}
 
