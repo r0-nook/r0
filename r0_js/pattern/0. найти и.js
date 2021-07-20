@@ -5,8 +5,8 @@
     if (rFoundIndexEl !== -1) {rArr.splice(rFoundIndexEl, 1);
 // for for
   for (let i = 0; i < rArr.length; i++) {
-    if (findEl === rArr[i]) { return true;
-    for (const rKey of rArr) { if (rKey === findEl) {
+    if (findEl === rArr[i]){return true;
+    for (const rKey of rArr){if (rKey === findEl) {
 // for иф includes del
   for (let i = 0; i < rArr.length; i++) {
     if (rArr2.includes(rArr[i]) || rArr2Up.includes(rArr[i])) {delete rArr[i];

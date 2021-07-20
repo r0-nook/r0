@@ -1,3 +1,8 @@
+// switch, if on obj
+условие это ключь объекта, а вывод свойство\содержимое
+return r0===1?2:r0===11?3:0;
+obj={1:2, 11:3}; return obj.r0;
+
 // for to map
 for (let i = 0; i < rArr.length; i++) {
  if (rArr[i] < 5) {
